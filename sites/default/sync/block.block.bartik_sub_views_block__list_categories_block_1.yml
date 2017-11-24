@@ -1,0 +1,24 @@
+uuid: 75ca4431-ec75-4d62-b2db-a01f6242cbba
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.list_categories
+  module:
+    - views
+  theme:
+    - bartik_sub
+id: bartik_sub_views_block__list_categories_block_1
+theme: bartik_sub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:list_categories-block_1'
+settings:
+  id: 'views_block:list_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

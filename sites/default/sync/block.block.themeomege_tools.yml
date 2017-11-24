@@ -1,0 +1,26 @@
+uuid: 9e03c757-d2ec-4e6a-9f33-7803f2935fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - themeomege
+_core:
+  default_config_hash: Ny2E8uTOPFw6lWvr4kkmvY6mU9ooeVH4mogo5CSOAns
+id: themeomege_tools
+theme: themeomege
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

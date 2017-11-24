@@ -1,0 +1,29 @@
+uuid: 32c79f2e-7278-4b96-a6ea-d544ca95b8c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+    - node
+  theme:
+    - bartik
+id: easysocial
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

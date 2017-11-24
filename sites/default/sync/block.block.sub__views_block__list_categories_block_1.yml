@@ -1,0 +1,24 @@
+uuid: 233da295-8199-4fa8-8b5c-be5c237525c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.list_categories
+  module:
+    - views
+  theme:
+    - sub_
+id: sub__views_block__list_categories_block_1
+theme: sub_
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:list_categories-block_1'
+settings:
+  id: 'views_block:list_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

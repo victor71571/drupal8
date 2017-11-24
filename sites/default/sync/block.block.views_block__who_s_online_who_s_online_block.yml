@@ -1,0 +1,24 @@
+uuid: eff75754-cf0a-4f6f-89d4-adbd01a5dbea
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__who_s_online_who_s_online_block
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 89b18a59-426d-40c5-a44e-8c31507838c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_about_me
+field_name: field_about_me
+entity_type: contact_message
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

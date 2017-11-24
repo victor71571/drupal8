@@ -1,0 +1,20 @@
+uuid: eb3c745b-1edc-457c-bdce-a3bcb4bc9f83
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themeomege
+_core:
+  default_config_hash: ZhI3wc13P8a01EatacYC97GCVa0nQsRv8tYDYHdiHCQ
+id: themeomege_page_title
+theme: themeomege
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

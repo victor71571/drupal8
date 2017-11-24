@@ -1,0 +1,32 @@
+uuid: 9a688416-2c33-4a29-ba9b-5e2c451dc2ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu
+  module:
+    - system
+    - user
+  theme:
+    - bartik_sub
+id: bartik_sub_menu
+theme: bartik_sub
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu'
+settings:
+  id: 'system_menu_block:menu'
+  label: Menu
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

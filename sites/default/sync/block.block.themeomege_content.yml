@@ -1,0 +1,22 @@
+uuid: 048dd01d-c3fc-4e0f-9f3b-4691ff9048bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themeomege
+_core:
+  default_config_hash: K8unYq2J8-FU98CenH87F7UM7PV_GETpcwN0D6qSRrI
+id: themeomege_content
+theme: themeomege
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

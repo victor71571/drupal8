@@ -1,0 +1,26 @@
+uuid: cc63f0dc-fdfb-477c-887e-a8c706a7700d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - themeomege
+_core:
+  default_config_hash: pRg9BLL2H6Oc10_K89aG-cLvpo_bT0JXfT-exIQJVMc
+id: themeomege_account_menu
+theme: themeomege
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,7 @@
+uuid: 58c02c0e-4f6a-4a6b-b916-cef496d4a105
+langcode: en
+status: false
+dependencies: {  }
+formId: field_commentsforarticle
+captchaType: image_captcha/Image
+label: field_commentsforarticle

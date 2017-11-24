@@ -1,0 +1,20 @@
+uuid: 901bb3ec-5d79-44dd-bca6-51fdacbf7fcc
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+    - user
+id: flagging.field_friends
+field_name: field_friends
+entity_type: flagging
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

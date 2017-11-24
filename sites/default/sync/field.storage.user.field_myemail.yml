@@ -1,0 +1,18 @@
+uuid: 86f212c9-4489-4345-b0fe-a0b81298e86e
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_myemail
+field_name: field_myemail
+entity_type: user
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

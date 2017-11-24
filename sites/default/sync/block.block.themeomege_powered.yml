@@ -1,0 +1,22 @@
+uuid: 3a8d9f40-4562-4b85-ae72-05fdf59468e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themeomege
+_core:
+  default_config_hash: 8rrUMkgT2q08eH4hTJLmhUrAaLPUmo1yTVw7Xoo5vdo
+id: themeomege_powered
+theme: themeomege
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

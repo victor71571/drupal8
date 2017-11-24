@@ -1,0 +1,36 @@
+uuid: 1732f598-fae6-48bb-9077-61d737a8d946
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_addressssss
+  module:
+    - address
+id: contact_message.personal.field_addressssss
+field_name: field_addressssss
+entity_type: contact_message
+bundle: personal
+label: Addressssss
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries:
+    UA: UA
+  fields:
+    administrativeArea: administrativeArea
+    locality: locality
+    dependentLocality: dependentLocality
+    postalCode: postalCode
+    sortingCode: sortingCode
+    addressLine1: addressLine1
+    addressLine2: addressLine2
+    organization: organization
+    givenName: givenName
+    additionalName: additionalName
+    familyName: familyName
+  langcode_override: ''
+field_type: address

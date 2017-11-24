@@ -1,0 +1,22 @@
+uuid: bb36592c-2248-4e84-b3ac-8f11ba970f43
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - themeomege
+_core:
+  default_config_hash: 8w5BeTJDr8OByBmoYA0WFW_okRDAZtfJYBaPGfTCn-M
+id: themeomege_help
+theme: themeomege
+region: highlighted
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

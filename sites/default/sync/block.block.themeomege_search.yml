@@ -1,0 +1,22 @@
+uuid: 0bdc1d00-7b7d-4fd1-8d67-811fd5aec096
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - themeomege
+_core:
+  default_config_hash: DIm2Mt8ztPMv9ulem0HRleIRMGx_-c0C6OJlk3OMPS4
+id: themeomege_search
+theme: themeomege
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

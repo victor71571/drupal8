@@ -1,0 +1,32 @@
+uuid: 99c2ed91-308c-453b-bdaa-df8bc40e7afe
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu
+  module:
+    - system
+    - user
+  theme:
+    - bootstrapsub
+id: bootstrapsub_menu
+theme: bootstrapsub
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu'
+settings:
+  id: 'system_menu_block:menu'
+  label: Menu
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

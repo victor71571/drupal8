@@ -1,0 +1,22 @@
+uuid: 12ad6538-db66-4d36-9755-db97fb7db1b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - themeomege
+_core:
+  default_config_hash: _xBGCwzTBcpNEPQHjrm6TTzv6PBQyyKLvNeWgdhrLEA
+id: themeomege_messages
+theme: themeomege
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

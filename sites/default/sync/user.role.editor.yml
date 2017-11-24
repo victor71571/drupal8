@@ -1,0 +1,22 @@
+uuid: ba59ea61-dc8a-4baa-b7b2-03dddaf641d8
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 5
+is_admin: null
+permissions:
+  - 'access content'
+  - 'create article content'
+  - 'create news content'
+  - 'create page content'
+  - 'delete any article content'
+  - 'delete any news content'
+  - 'delete any page content'
+  - 'delete own news content'
+  - 'edit any article content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit own news content'
+  - 'edit own page content'

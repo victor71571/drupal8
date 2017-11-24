@@ -1,0 +1,32 @@
+uuid: ea510a32-52a9-4660-ac6e-74419f002360
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+id: menu
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu'
+settings:
+  id: 'system_menu_block:menu'
+  label: Menu
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

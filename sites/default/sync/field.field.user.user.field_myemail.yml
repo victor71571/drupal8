@@ -1,0 +1,22 @@
+uuid: 251bc4e4-82f0-4732-9e7b-4bb0469c8c21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_myemail
+  module:
+    - user
+id: user.user.field_myemail
+field_name: field_myemail
+entity_type: user
+bundle: user
+label: MyEmail
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: viktor71571@ukr.net
+default_value_callback: ''
+settings: {  }
+field_type: email

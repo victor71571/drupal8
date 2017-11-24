@@ -1,0 +1,28 @@
+uuid: cab330c2-4a37-4cbc-a1f6-79b806cfe882
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.flagging.field_friends
+    - flag.flag.friends
+id: flagging.friends.field_friends
+field_name: field_friends
+entity_type: flagging
+bundle: friends
+label: Friends
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

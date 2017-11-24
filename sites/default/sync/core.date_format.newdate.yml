@@ -1,0 +1,8 @@
+uuid: f5ba4c2d-1836-4eb8-9a85-5c809a699c3e
+langcode: en
+status: true
+dependencies: {  }
+id: newdate
+label: newDate
+locked: false
+pattern: 'M d D Y'

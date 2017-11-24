@@ -1,0 +1,29 @@
+uuid: 72b43044-ea7d-4a61-86c1-911809927ccf
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_social
+    - node
+  theme:
+    - bootstrapsub
+id: bootstrapsub_easysocial
+theme: bootstrapsub
+region: header
+weight: 0
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,24 @@
+uuid: 3703b36e-d220-4595-9889-2037f408c121
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.list_categories
+  module:
+    - views
+  theme:
+    - bootstrapsub
+id: bootstrapsub_views_block__list_categories_block_1
+theme: bootstrapsub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:list_categories-block_1'
+settings:
+  id: 'views_block:list_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

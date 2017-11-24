@@ -1,0 +1,9 @@
+bartik_sub:
+  css:
+    component:
+      css/style.css: {}
+font_awesome:
+  css:
+    component:
+      css/font-awesome.css: {}
+

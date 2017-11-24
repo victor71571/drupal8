@@ -1,0 +1,21 @@
+uuid: b4458df6-20fb-4b6a-ab1e-424bd3a62ca7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contactform
+    - field.storage.contact_message.field_job_role
+id: contact_message.contactform.field_job_role
+field_name: field_job_role
+entity_type: contact_message
+bundle: contactform
+label: 'Job Role'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

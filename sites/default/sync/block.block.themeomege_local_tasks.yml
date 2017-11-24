@@ -1,0 +1,22 @@
+uuid: 633e05c3-9878-48ce-aea8-f4f23dab2e45
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themeomege
+_core:
+  default_config_hash: QV3Lc6Iv0Ybi-XGFUuU4UAHGs2m4RFBa1QP4DRHZspo
+id: themeomege_local_tasks
+theme: themeomege
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

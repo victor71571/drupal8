@@ -1,0 +1,20 @@
+uuid: 23647782-0cd7-417a-888c-b1fb9bd4353c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themeomege
+_core:
+  default_config_hash: MdvR0HlItLgh15R7zev_c80WWSqs__CO_bkqMD10ZXg
+id: themeomege_local_actions
+theme: themeomege
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

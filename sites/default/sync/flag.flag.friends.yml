@@ -1,0 +1,30 @@
+uuid: 480b24bf-fda0-468f-bd31-324966253fb2
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+id: friends
+label: Friends
+bundles: {  }
+entity_type: user
+global: false
+weight: 0
+flag_short: 'Flag add'
+flag_long: ''
+flag_message: ''
+unflag_short: 'Flag delete'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:user'
+link_type: reload
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: owner
+  show_on_profile: true
+linkTypeConfig: {  }

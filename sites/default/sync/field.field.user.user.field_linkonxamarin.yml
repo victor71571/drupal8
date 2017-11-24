@@ -1,0 +1,23 @@
+uuid: 40b07d4b-c901-419e-9932-b6e4d44fcc78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_linkonxamarin
+  module:
+    - link
+    - user
+id: user.user.field_linkonxamarin
+field_name: field_linkonxamarin
+entity_type: user
+bundle: user
+label: LinkOnXamarin
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
